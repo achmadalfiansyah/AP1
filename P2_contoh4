@@ -1,0 +1,61 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+  int a,b,hasil; //deklarasi variable
+  double c,d,hasil2;
+
+  cout<<"Masukan Nilai 'a' dan 'b' !"<<endl; //ditampilkan kata kata perintah untuk memasukkan nilai a dan b
+  cout<<"a : "; // menampilkan hasil a yang akan diinput
+  cin>>a; //input angka a yang diinginkan
+  cout<<"b : "; //menampilkan hasil b yang akan diinput
+  cin>>b; //menginput angka b yang diinginkan
+  cout<<endl;
+  cout<<"#### Operator Aritmatika (int)"<<endl; //keterangkan akan operasi aritmatika dari 2 variable yang diinputkan yang berupa semua operasi aritmatika
+
+  //Penambahan
+  hasil = a + b;
+  cout<<"a + b : "<<hasil<<endl; //menampilkan operasi aritmatika penjumlahan dan hasil
+
+  //Pengurangan
+  hasil = a - b;
+  cout<<"a - b : "<<hasil<<endl; //menampilkan operasi aritmatika pengurangan dan hasil
+
+  //Perkalian
+  hasil = a * b;
+  cout<<"a * b : "<<hasil<<endl;  //menampilkan operasi aritmatika perkalian dan hasil
+
+  //Pembagian
+  hasil = a / b;
+  cout<<"a / b : "<<hasil<<endl;  //menampilkan operasi aritmatika pembagian dan hasil
+
+  //Modulus (sisa pembagian)
+  hasil = a % b;
+  cout<<"a % b : "<<hasil<<endl;  //menampilkan operasi aritmatika mencari sisa pembagian dan hasil
+
+  cout<<"### Operator matematika (float)"<<endl;
+  cout<<"Masukan Nilai 'c' dan 'd' !"<<endl; //perintah ditampilkan untukmemasukkan nilai c dan d  berupa rill
+  cout<<"c : ";
+  cin>>c; //perintah input c
+  cout<<"d : ";
+  cin>>d; //perintah input d
+  cout<<endl;
+
+  //Pembagian2   
+  hasil2 = c / d;
+  cout<<"c / d  : "<<hasil2<<endl;
+
+  //Pangkat
+  hasil2 = pow(c,d);
+  cout<<"c ^ d  : "<<hasil2<<endl;
+
+  //Akar
+  hasil2 = sqrt(c);
+  cout<<"akar a : "<<hasil2<<endl; 
+  hasil2 = sqrt(d);
+  cout<<"akar b : "<<hasil2<<endl;
+}
+
