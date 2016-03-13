@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int a, b,c,d;  //deklarasi variable
+  int r = 10;    //deklarasi variable r
+  int s;         //deklarasi variable s
+  a = 5;         //deklarasi variable
+  b = 600;      //deklarasi variable
+  c = 5;        //deklarasi variable
+  d = b*b-4*a*c;     //deklarasi operasi aritmatika
+  s = 10 + r++;      // deklarasi poperasi aritmatika
+
+  cout <<"d = "<<d<<'\n'; //menampilkan hasil operasi aritmatika yang telah dideklarasikan
+  cout <<"r = "<<r<<'\n'; //menampilkan hasil operasi aritmatika yang telah dideklarasikan
+  cout <<"s = " <<s<<'\n';  //menampilkan hasil operasi aritmatika yang telah dideklarasikan
+
+  r=10;  //deklarasi r
+  s=10 + ++r;  //deklarasi aritmatika s
+
+  cout <<"r = "<<r<<'\n'; //menampilkan r yang telah dideklarasi
+  cout <<"s = " <<s<<'\n'; //menampilkan hasil aritmatika s yang telah dideklarasikan
+  cout <<"Hasil dari 5 % 7 adalah " << 5%7<<'\n'; 
+ //penggunaan operator sisa
+
+}
