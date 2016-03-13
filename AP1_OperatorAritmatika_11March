@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int input1, input2; //deklarasi variable
+    int hasilpembagian; //deklarasi variable
+
+    cout <<"masukkan bilangan pertama ="; //tampilan untuk kalimat masukkan bilangan pertama
+    cin >>input1; //input bilangan 1
+    cout <<"masukkan bilangan kedua ="; //tampilan untuk kalimat masukan bilangan kedua
+    cin >>input2; //input bilangan 2
+
+    cout <<input1<<"*"<<input2<<"="<<input1*input2<<endl; //menampilkan perkalian dan hasil dari perkalian
+    hasilpembagian = input1/input2; //deklarasi hasil //deklerasi hasil dari pembagian
+    cout <<input1<<"/"<<input2<<"="<<hasilpembagian<<endl; //menampilkan pembagian dan deklarasi hasil dari pembagian
+    cout <<input1<<"+"<<input2<<"="<<input1+input2<<endl;  // menampilkan penjumlahan dan hasilnya
+    cout <<input1<<"-"<<input2<<"="<<input1-input2<<endl;  // menampilkan pengurangan dan hasil pengurangan
+}
