@@ -1,0 +1,18 @@
+//contoh input nama dan memanggil hallo
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void main ()
+{
+	string nama; //variable
+
+	cout << "Masukkan Nama Anda : ";
+	cin >> nama; //input nama yang diinginkan
+
+	cout << "Hallo ";  //menampilkan kata hallo
+	cout << nama;  //menampilkan nama yang telah di input
+system("pause");
+}
