@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int nilai;  //variable nilai
+  nilai = 3>2; // hasil ungkapan : benar
+  cout << "nilai = "<<nilai<<endl;  //ditampilkan berupa nilai
+  nilai = 2>3; // hasil ungkapan : salah
+  cout << "nilai = " <<nilai<<endl;
+
+  int x = 200; //variable x
+
+  cout<<"( x >= 1) && (x <= 50) -> " //menampilkan aritmatika seperti yang ditulis di cout ini
+    <<(( x >= 1) && (x <= 50))<<'\n';
+
+  cout<<"( x >= 1) || (x <= 50) -> "  //menampilkan aritmatika seperti yang ditulis di cout ini
+    <<(( x >= 1) || (x <= 50))<<'\n';
+
+  int bil1,bil2,minim;  //deklarasi variable
+  bil1 = 53;
+  bil2 = 6;
+
+  minim = bil1<bil2 ? bil1:bil2;
+  cout << "Bilangan terkecil =  "<<minim<<'\n'; //hasil dari atau output atas deklarasi operasi aritmatika yang telah ditulis sebelumnya
+
+}
